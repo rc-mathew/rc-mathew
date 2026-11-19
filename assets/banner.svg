@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Reuben C Mathew - AI Engineer, FinTech and MLOps">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05060d"/>
+      <stop offset="0.6" stop-color="#0b1026"/>
+      <stop offset="1" stop-color="#1a1040"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7df9ff"/>
+      <stop offset="0.5" stop-color="#8b9cff"/>
+      <stop offset="1" stop-color="#d27bff"/>
+    </linearGradient>
+    <linearGradient id="gridfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b9cff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#8b9cff" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orbA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7df9ff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#7df9ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d27bff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#d27bff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="floor"><rect x="0" y="210" width="1200" height="130"/></clipPath>
+    <clipPath id="titleClip"><text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="2">REUBEN C MATHEW</text></clipPath>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+
+  <circle cx="220" cy="120" r="220" fill="url(#orbA)">
+    <animate attributeName="cx" values="220;360;220" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="120;170;120" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="110" r="240" fill="url(#orbB)">
+    <animate attributeName="cx" values="980;840;980" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="110;60;110" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <g fill="#fff">
+    <circle cx="90" cy="40" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="70" r="1"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="30" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="55" r="1"><animate attributeName="opacity" values="1;0.3;1" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="35" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="90" r="1"><animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g clip-path="url(#floor)" stroke="#8b9cff" stroke-width="1" fill="none">
+    <rect x="0" y="210" width="1200" height="130" fill="url(#gridfade)" stroke="none"/>
+    <g opacity="0.55">
+      <line x1="600" y1="210" x2="-1200" y2="340"/><line x1="600" y1="210" x2="-900" y2="340"/>
+      <line x1="600" y1="210" x2="-600" y2="340"/><line x1="600" y1="210" x2="-300" y2="340"/>
+      <line x1="600" y1="210" x2="0" y2="340"/><line x1="600" y1="210" x2="300" y2="340"/>
+      <line x1="600" y1="210" x2="600" y2="340"/><line x1="600" y1="210" x2="900" y2="340"/>
+      <line x1="600" y1="210" x2="1200" y2="340"/><line x1="600" y1="210" x2="1500" y2="340"/>
+      <line x1="600" y1="210" x2="1800" y2="340"/><line x1="600" y1="210" x2="2100" y2="340"/>
+      <line x1="600" y1="210" x2="2400" y2="340"/>
+    </g>
+    <g opacity="0.5">
+      <line x1="0" y1="216" x2="1200" y2="216"/>
+      <line x1="0" y1="226" x2="1200" y2="226"/>
+      <line x1="0" y1="240" x2="1200" y2="240"/>
+      <line x1="0" y1="260" x2="1200" y2="260"/>
+      <line x1="0" y1="288" x2="1200" y2="288"/>
+      <line x1="0" y1="326" x2="1200" y2="326"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 14; 0 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <line x1="0" y1="210" x2="1200" y2="210" stroke="#7df9ff" stroke-opacity="0.6" stroke-width="1.5"/>
+
+  <text x="603" y="154" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="2" fill="#000" opacity="0.55">REUBEN C MATHEW</text>
+  <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="2" fill="url(#title)">REUBEN C MATHEW</text>
+  <g clip-path="url(#titleClip)">
+    <rect x="-300" y="80" width="260" height="90" fill="url(#sweep)" transform="skewX(-20)">
+      <animate attributeName="x" values="-300;1300" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="600" y="192" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" letter-spacing="6" fill="#c9d1ff">AI ENGINEER  ·  FINTECH  ·  MLOPS</text>
+</svg>
