@@ -24,8 +24,9 @@
 
 ML engineer for credit and fraud risk, Bengaluru. MSc Financial Technology (University of Huddersfield). AI Engineer Intern at **Rubixe**.
 
+**Latest:** [Agentic Lending Policy RAG](https://github.com/rc-mathew/agentic-lending-policy-rag), a cited-answer assistant over RBI rules and bank policies ([live demo](https://lending-policy-assistant.streamlit.app)).
+
 **Now building**
-- Agentic lending-policy RAG (LangGraph, hybrid search, RAGAS)
 - Deep learning fraud detection (pretrained transaction transformer, GNN)
 - QLoRA transaction categoriser (fine-tuned small LLM)
 - Banking risk agent (multi-agent, MCP, guardrails, evals in CI)
@@ -43,6 +44,7 @@ ML engineer for credit and fraud risk, Bengaluru. MSc Financial Technology (Univ
 <img src="https://img.shields.io/badge/AWS%20SageMaker-ff9900?style=flat-square&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS%20EKS-ff9900?style=flat-square&logo=amazoneks&logoColor=white"/>
 <img src="https://img.shields.io/badge/LLMs%20%2B%20RAG-8b5cf6?style=flat-square"/>
+<img src="https://img.shields.io/badge/LangGraph-1c3c3c?style=flat-square&logo=langchain&logoColor=white"/>
 <img src="https://img.shields.io/badge/Jupyter-f37626?style=flat-square&logo=jupyter&logoColor=white"/>
 
 </div>
@@ -50,6 +52,17 @@ ML engineer for credit and fraud risk, Bengaluru. MSc Financial Technology (Univ
 ## Featured work
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/rc-mathew/agentic-lending-policy-rag">Agentic Lending Policy RAG</a> · <a href="https://lending-policy-assistant.streamlit.app">live demo</a></h3>
+      Answers lending questions from 11 RBI Directions and 7 bank policies (829 pages) with a page-level citation on every claim. Plain RAG vs a hand-written ReAct agent vs a LangGraph agent, over hybrid BM25 + dense search and a cross-encoder re-ranker, with EMI/LTV calculator tools. 60-question gold set checked by hand: 82% (plain RAG) to 91% (LangGraph); fixes judged on separate holdout questions. Guardrails, 119 offline tests in CI, runs on free tiers.<br/><br/>
+      <img src="https://img.shields.io/badge/LangGraph-1c3c3c?style=flat-square&logo=langchain&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Qdrant-dc244c?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Gemini-8e75b2?style=flat-square&logo=googlegemini&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white"/>
+      <img src="https://img.shields.io/badge/RAG%20%2B%20Evals-8b5cf6?style=flat-square"/>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>Bank GoodCredit credit risk model</h3>
