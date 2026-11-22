@@ -65,8 +65,8 @@ ML engineer for credit and fraud risk, Bengaluru. MSc Financial Technology (Univ
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>Bank GoodCredit credit risk model</h3>
-      Multi-table features, XGBoost beating the benchmark Gini (0.385 vs 0.379), FastAPI on AWS SageMaker Serverless, PSI drift checks.<br/><br/>
+      <h3><a href="https://github.com/rc-mathew/Bank_GoodCredit_Credit_Risk">Bank GoodCredit credit risk model</a></h3>
+      Multi-table features, XGBoost beating the benchmark Gini (0.385 vs 0.379), FastAPI on AWS SageMaker Serverless, PSI drift checks. Now with a Mini Risk Agent: the model as an MCP tool, a LangGraph agent that explains each score from the model's own feature contributions, and human approval.<br/><br/>
       <img src="https://img.shields.io/badge/XGBoost-189fdd?style=flat-square"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
       <img src="https://img.shields.io/badge/AWS%20SageMaker-ff9900?style=flat-square&logo=amazonaws&logoColor=white"/>
