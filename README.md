@@ -24,10 +24,9 @@
 
 ML engineer for credit and fraud risk, Bengaluru. MSc Financial Technology (University of Huddersfield). AI Engineer Intern at **Rubixe**.
 
-**Latest:** [Agentic Lending Policy RAG](https://github.com/rc-mathew/agentic-lending-policy-rag), a cited-answer assistant over RBI rules and bank policies ([live demo](https://lending-policy-assistant.streamlit.app)).
+**Latest:** [Deep Learning Fraud Detection](https://github.com/rc-mathew/deep-learning-fraud-detection): transformer, graph and anomaly models benchmarked against XGBoost on a time split, with a cost-based threshold ([live demo](https://rc-mathew-fraud-detection.streamlit.app)). Before that, [Agentic Lending Policy RAG](https://github.com/rc-mathew/agentic-lending-policy-rag) ([live demo](https://lending-policy-assistant.streamlit.app)).
 
 **Now building**
-- Deep learning fraud detection (pretrained transaction transformer, GNN)
 - QLoRA transaction categoriser (fine-tuned small LLM)
 - Banking risk agent (multi-agent, MCP, guardrails, evals in CI)
 
@@ -52,6 +51,17 @@ ML engineer for credit and fraud risk, Bengaluru. MSc Financial Technology (Univ
 ## Featured work
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/rc-mathew/deep-learning-fraud-detection">Deep Learning Fraud Detection</a> · <a href="https://rc-mathew-fraud-detection.streamlit.app">live demo</a></h3>
+      Card fraud on IEEE-CIS (590K transactions) with a time split: a transaction transformer written from scratch with masked-field pretraining, GraphSAGE on a past-only device and email graph, and an autoencoder, benchmarked against XGBoost. A stacked ensemble catches 47.6% of fraud at a 1% false-positive rate; deep models add little over XGBoost, and part of that gain comes from the dataset's labelling. Cost-based threshold, calibration, fairness checks, Captum reason codes, ONNX serving at 0.5 ms per transaction, 35 tests in CI.<br/><br/>
+      <img src="https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PyG%20GraphSAGE-3c2179?style=flat-square"/>
+      <img src="https://img.shields.io/badge/ONNX-005ced?style=flat-square&logo=onnx&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white"/>
+    </td>
+  </tr>
   <tr>
     <td colspan="2" valign="top">
       <h3><a href="https://github.com/rc-mathew/agentic-lending-policy-rag">Agentic Lending Policy RAG</a> · <a href="https://lending-policy-assistant.streamlit.app">live demo</a></h3>
